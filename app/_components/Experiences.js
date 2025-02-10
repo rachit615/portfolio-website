@@ -40,8 +40,8 @@ const experiences = [
     duration: "Jan 2023 - April 2023",
     logo: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEVHcEzg4ODY2Njl5eXs7OygoKDu7u709fTu7uvy8vLl5eXNzc3Ly8vm5ubO+/3/////kU36/PxfHI3L/P7p/f7/iTra/P7/jkZzRJiPcqrY2dXh5OH/6Nz7iDz3r4X+waDMxtH+pXKijbXAssyAWp/71L7m1MG1pcOUd60/kSWfAAAADnRSTlMAYlR0mBqz/v3NgT5qbCrkQEUAAAG/SURBVDiNZZPrYoIwDIVxOoq7UNICRZCbotv7P+FO0ovbPPsxab6kJ2mbZUm7nGotOu5fsycdCJG29ISm/B/ywmGqSxsJTW9/0rFSt9aWEAdtyxs94kestRItpUZtrYWdIsZzXiqjkCv/21Rjn+I27iAfIHKOv1KI27auLWmKPO/y4g2U4ZtqRSysMAJaoQC6lwQE+iu0KCba0NEOHVKgiU6G1Q2KfFUUPWYK4/P1lfo23baBUCAkDT6z4ADeVXEyXd9fjFm4hOQxwCgbjsBizBcDYT2Tniw9A5r3SICOwDDwFgWFebYMxBNiwHSdMVuh/NkHwP4GoK1/Bh5bLJs5DR4ogwfC2Q5FMgkLg1hIXej7VDVrAtDEVYDbvbToDpOcmqpqVGqzM988Se0aN/UY1EGfAbg1tYl5s4fZIW3GWeA0V/9bKQGuPGp9Q1ZVyYXIpQQIUtfLV1EMl8tCEm9uci1xo2b+HNdC+T9VTCMW3KT1u7woLT4rN053jt6n0VViSx/SqxACCNSMnI7O6fEyQMwNZyU5mP79ct60Pq8PxDXrOdz5qHcFZHaNqJoRpt2/1/2J49DqzOKD8PY+suwHv5k8FMpktD0AAAAASUVORK5CYII=",
     highlights: [
-      "Worked in the Information Systems department at IOCL.",
-      "Developed a 'Complaint Management System' website from scratch.",
+      "Learned the fundamentals of web development, including HTML, CSS, and JavaScript.",
+      "Developed projects using React, Next.js, and Tailwind CSS.",
     ],
   },
 ];

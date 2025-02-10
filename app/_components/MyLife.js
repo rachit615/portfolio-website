@@ -17,17 +17,17 @@ const hobbies = [
   },
 
   {
-    title: "Desert Safari",
-    category: "Travel",
+    title: "Beach Day",
+    category: "Recreational Activities",
     description:
-      "Desert Safaris fuel my adventurous spirit, offering a unique way to connect with nature and experience the raw beauty of vast landscapes.",
+      "A day at the beach is my perfect way to relax and recharge. Whether it's the soothing sound of waves, the warmth of the sun, or the thrill of water sports, it’s a place where I connect with nature and find peace.",
     image: "/images/hobbies/beach.jpeg",
   },
   {
-    title: "Jungle Safari",
-    category: "Travel",
+    title: "Amusement Park Visit",
+    category: "Recreational Activities",
     description:
-      "Jungle Safaris bring me closer to wildlife and nature, offering thrilling experiences and unforgettable encounters in the wild.",
+      "A visit to Wonderla is my perfect escape for a day of adventure and excitement. From thrilling rides to water attractions, it's a place where I can unwind and embrace the joy of fun-filled experiences.",
     image: "/images/hobbies/wonderla.jpeg",
   },
 
