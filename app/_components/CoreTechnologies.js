@@ -65,19 +65,13 @@ export default function CoreTechnologies() {
           <div className="relative mx-auto w-full max-w-xl pb-24 lg:order-1 lg:mx-0 lg:max-w-none">
             <div className="relative mx-auto w-full max-w-lg lg:ml-0 lg:mr-auto">
               <div className="aspect-h-7 aspect-w-5">
-                <Image
-                  src="/_next/static/media/client.775c3373.jpg"
-                  alt="Mayank Khanna"
+                {/* <Image
+                  src=""
+                  alt="Rachit Gupta"
                   width={1411}
                   height={1058}
                   className="h-full w-full rounded-2xl object-cover object-left"
-                />
-              </div>
-              <div className="absolute -bottom-16 right-6 max-w-xs rounded-2xl bg-emerald-700/95 p-8 backdrop-blur-sm xl:bottom-10 xl:translate-x-1/4">
-                <p className="font-display text-2xl font-medium text-emerald-50">
-                  <span className="text-[28px] font-bold text-white">50+</span>
-                  &nbsp;Clients have loved my work
-                </p>
+                /> */}
               </div>
             </div>
           </div>

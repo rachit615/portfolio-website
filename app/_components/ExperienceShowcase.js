@@ -2,46 +2,25 @@ import Image from "next/image";
 
 const experiences = [
   {
-    title: "Baidya Artworks",
+    title: "Airbnb Clone",
     description:
-      'Developed a responsive e-commerce website for art products, including SEO optimization, achieving top search rankings for "Baidya Artworks".',
-    imageUrl: "/img/brands/baidyaart.png",
-    link: "https://baidyaart.com",
+      "Developed  Airbnb clone for short-term rentals, featuring dynamic search, user authentication, and SEO optimization, achieving high search rankings for listed properties.",
+    imageUrl: "/images/p_airbnb_test.PNG",
+    link: "https://airbeenb.netlify.app/",
   },
   {
-    title: "Crew Time Sync",
+    title: "Weston Properties",
     description:
-      "Designed an application for cabin crew members to access global time zone information and coordination across various locations.",
-    imageUrl: "/img/brands/cts.png",
-    link: "https://crewtimesync.com",
+      "Developed a responsive real estate platform for Weston Properties, enabling seamless property listings, advanced search, and optimized SEO for better visibility..",
+    imageUrl: "/images/p_weston_test.PNG",
+    link: "https://real-estate-properties.netlify.app/",
   },
   {
     title: "Tech Revolvers",
     description:
       "Created a responsive website offering technological solutions, including web development, cybersecurity services, and SEO, catering to businesses and users.",
-    imageUrl: "/img/brands/techrev.png",
-    link: "https://techrevolvers.com",
-  },
-  {
-    title: "Additional Knowledge",
-    description:
-      "Managed and written a WordPress blog website with over 170k+ views, sharing insights and information on web technologies, mobile applications, and various other topics.",
-    imageUrl: "/img/brands/additionalknowledge.png",
-    link: "https://additionalknowledge.com",
-  },
-  {
-    title: "Webpack 5 Upgradation",
-    description:
-      "Authored a popular Medium blog on reducing chunk size by upgrading to Webpack 5, providing detailed analysis and insights on the improvements.",
-    imageUrl: "/img/brands/webpack.png",
-    link: "https://tech.oyorooms.com/migrating-to-webpack-5-to-improve-build-time-and-reduce-chunk-sizes-50486918d348",
-  },
-  {
-    title: "WebOtp API Integration",
-    description:
-      "Wrote a well-received Medium blog on integrating the Web OTP API, explaining how websites can automatically read OTPs received on phones via carriers.",
-    imageUrl: "/img/brands/webotp.png",
-    link: "https://tech.oyorooms.com/implementing-automatic-sms-verification-for-websites-oyo-9375feba0749",
+    imageUrl: "/images/p_cryptoXchange.PNG",
+    link: "https://cryptoaxchange.netlify.app/",
   },
 ];
 
@@ -61,7 +40,7 @@ const ExperienceShowcase = () => {
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="flex flex-col items-start justify-between mx-6 sm:mx-0 rounded-2xl bg-slate-50 shadow-sm shadow-emerald-100/50 ring-1 ring-slate-100 dark:bg-trueGray-800 dark:shadow-emerald-900/50 dark:ring-slate-900"
+            className="flex flex-col items-start justify-between mx-6 sm:mx-0 rounded-2xl  ring-1  bg-[rgb(38,38,38)] dark:shadow-emerald-900/50 dark:ring-slate-900"
           >
             <div className="w-full px-4 pt-4">
               <a
@@ -73,22 +52,25 @@ const ExperienceShowcase = () => {
                 <Image
                   src={exp.imageUrl}
                   alt={exp.title}
-                  width={100}
-                  height={100}
+                  width={600} // Set this to match your original image width
+                  height={400} // Set this to match your original image height
+                  layout="responsive"
                   className="w-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/5 dark:ring-slate-100/5"></div>
               </a>
             </div>
             <div className="group relative flex flex-1 flex-col px-5 pb-10 pt-8 xl:px-7">
-              <h3 className="mt-4 text-xl font-medium leading-normal text-slate-900 transition duration-200 ease-in-out group-hover:text-emerald-900 dark:text-slate-100 dark:group-hover:text-emerald-300">
-                <a href={exp.link} target="_blank" rel="noopener noreferrer">
-                  {exp.title}
-                </a>
-              </h3>
-              <p className="mt-3.5 text-md leading-7 text-slate-700 dark:text-slate-300">
-                {exp.description}
-              </p>
+              <div className="flex-1">
+                <h3 className="mt-4 text-xl font-medium leading-normal text-slate-900 transition duration-200 ease-in-out group-hover:text-emerald-900 dark:text-slate-100 dark:group-hover:text-emerald-300">
+                  <a href={exp.link} target="_blank" rel="noopener noreferrer">
+                    {exp.title}
+                  </a>
+                </h3>
+                <p className="mt-3.5 text-md leading-7  dark:text-slate-300">
+                  {exp.description}
+                </p>
+              </div>
             </div>
           </div>
         ))}

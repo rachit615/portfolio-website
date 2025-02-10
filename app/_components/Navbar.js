@@ -53,7 +53,9 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`lg:flex items-center ${menuOpen ? "block" : "hidden"}`}
+          className={`lg:flex items-center ${
+            menuOpen ? "block" : "hidden"
+          } mr-8`}
         >
           <ul className="flex flex-col lg:flex-row lg:space-x-6">
             {[
@@ -75,7 +77,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="hidden lg:flex items-center space-x-4">
+        {/* <div className="hidden lg:flex items-center space-x-4">
           <button className="text-gray-300 rounded-full outline-none focus:outline-none">
             <span className="sr-only">Light Mode</span>
             <svg
@@ -94,7 +96,7 @@ const Navbar = () => {
           >
             Get in Touch
           </a>
-        </div>
+        </div> */}
       </nav>
     </div>
   );

@@ -40,19 +40,19 @@ const WhyMe = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              imgSrc: "/img/web-development.svg",
+              imgSrc: "/images/web-development.svg",
               title: "Web Development",
               description:
                 "Create robust, scalable web applications from scratch, using the latest technologies to ensure top-notch performance and reliability.",
             },
             {
-              imgSrc: "/img/ux-design.svg",
+              imgSrc: "/images/ux-design.svg",
               title: "UX Design",
               description:
                 "Enhance user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction with your product.",
             },
             {
-              imgSrc: "/img/digital-strategy.svg",
+              imgSrc: "/images/digital-strategy.svg",
               title: "Digital Strategy",
               description:
                 "Develop a comprehensive digital strategy to ensure your projects are aligned with your business goals and achieve maximum impact.",
