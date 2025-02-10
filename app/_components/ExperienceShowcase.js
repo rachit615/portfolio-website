@@ -5,14 +5,14 @@ const experiences = [
     title: "Airbnb Clone",
     description:
       "Developed  Airbnb clone for short-term rentals, featuring dynamic search, user authentication, and SEO optimization, achieving high search rankings for listed properties.",
-    imageUrl: "/images/p_airbnb_test.PNG",
+    imageUrl: "/images/p_airbnb_test.png",
     link: "https://airbeenb.netlify.app/",
   },
   {
     title: "Weston Properties",
     description:
       "Developed a responsive real estate platform for Weston Properties, enabling seamless property listings, advanced search, and optimized SEO for better visibility..",
-    imageUrl: "/images/p_weston_test.PNG",
+    imageUrl: "/images/p_weston_test.png",
     link: "https://real-estate-properties.netlify.app/",
   },
   {
