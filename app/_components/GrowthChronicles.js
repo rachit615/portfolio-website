@@ -37,7 +37,7 @@ const GrowthChronicles = () => {
         {/* Resume Download Section */}
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1EAmGzqZ9xcYh2ZZULM5zj3M0QrwpdrUs/view"
+          href="https://drive.google.com/file/d/1x2TuyIIWzXRDEOPfDUPJ_BVaWzPDdCRu/view"
           rel="noopener noreferrer"
           className="relative h-full w-full mt-5 sm:mt-0 lg:w-1/2"
         >
