@@ -82,7 +82,7 @@ const WhyMe = () => {
         </div>
       </div>
 
-      {/* Additional Skills */}
+      {/* Additional Skills
       <div className="container p-8 mx-auto mt-10 block lg:hidden">
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
@@ -118,7 +118,7 @@ const WhyMe = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
