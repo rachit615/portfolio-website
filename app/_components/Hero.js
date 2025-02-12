@@ -1,14 +1,11 @@
+"use client";
 import Image from "next/image";
+import useIsMobile from "../hooks/useIsMobile";
 
 const Hero = () => {
+  const isMobile = useIsMobile();
   return (
     <section className="container p-8 mx-auto flex relative flex-wrap min-h-[90vh] lg:min-h-[auto]">
-      {/* Background Gradient */}
-      <div
-        aria-hidden="true"
-        className="absolute h-full inset-0 z-20 bg-gradient-to-b dark:from-trueGray-900/10 dark:via-trueGray-900/20 dark:to-trueGray-900 from-white/10 via-white/20 to-white sm:hidden"
-      ></div>
-
       {/* Left Side - Text Content */}
       <div className="flex items-center w-full lg:w-1/2 z-20">
         <div className="max-w-2xl mb-8">
@@ -53,8 +50,12 @@ const Hero = () => {
       </div>
 
       {/* Right Side - Placeholder for Image or Animation */}
-      <div className="flex items-center justify-center w-full lg:w-1/2 relative glitchParent">
-        <div className="glitchnew fixed inset-0 h-full w-full object-cover glitchAnim"></div>
+      <div className="flex items-center  md:justify-center w-full lg:w-1/2 relative glitchParent">
+        <div
+          className={`fixed inset-0 h-full w-full object-cover glitchAnim ${
+            isMobile ? " glitchnew glitchmobile" : "glitchnew"
+          }`}
+        ></div>
       </div>
     </section>
   );

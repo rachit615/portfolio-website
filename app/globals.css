@@ -24,6 +24,11 @@
   border-radius: 12px;
 }
 
+.glitchmobile {
+  width: 40vw !important;
+  height: 40vw !important;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

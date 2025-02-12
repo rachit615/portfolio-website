@@ -11,7 +11,7 @@ import ExperienceShowcase from "./_components/ExperienceShowcase";
 export default function Home() {
   return (
     <div className="pt-2 mx-auto bg-[#171717]">
-      <div className="mt-20"></div>
+      <div className="mt-10 md:mt-20"></div>
       <Hero />
       <GrowthChronicles />
       <Experiences />
